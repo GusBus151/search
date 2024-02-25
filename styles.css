@@ -1,0 +1,157 @@
+.link-header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 48px;
+    line-height: 24px;
+}
+
+.nav_links {
+    padding: 13px;
+    font-family: roboto, arial, sans-serif;
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.nav_links:hover {
+    text-decoration: underline;
+}
+
+.nav_links:visited {
+    color: black;
+} 
+
+.mini_logo {
+    display: flex;
+    height: 24px;
+    width: 74px;
+    margin-right: 91.75%;
+}
+
+.logo {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 252px;
+    width: 100%;
+}
+
+.centered_div {
+    display: grid;
+    height: 142px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.centered_div > #search_box {
+    display: flex;
+    height: 46px;
+    justify-content: center;
+}
+
+#search_box {
+    display: flex;
+    margin-top: 8px;
+    width: 93%;
+    min-height: 38px;
+    border: 1px solid;
+    border-radius: 24px;
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    overflow-x: hidden; 
+    padding: 4px 20px;
+}
+
+.search_buttons_div {
+    display: flex;
+    height: 88px;
+    width: 584px;
+    justify-content: center;
+    align-items: center;
+}
+
+#search_button, #lucky_button {
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transform: translateX(5px);
+}
+
+#bottom_border {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advanced_text_title {
+    color: rgb(246, 54, 43);
+    margin-left: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    margin: 25px 35px;
+    height: 23px;
+}
+
+.advanced_text_body {
+    font-size: 21px;
+}
+
+.advanced_inputs {
+    margin: 40px;
+}
+
+.top_text {
+    display: flex;
+    align-items: normal;
+}
+
+.input_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input_text {
+    width: 200px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.input_field {
+    width: 380px;
+}
+
+.form_input_field {
+    width: 380px;
+}
+
+#right_text {
+    margin-left: 20px;
+    word-wrap: normal;
+    width: 300px;
+    font-size: 88%;
+}
+
+.adv_button {
+    display: flex;
+    justify-content: right;
+    width: 588px;
+}
+
+.adv_button_look {
+    background-color: #0040b5;
+    color: #fffffc;
+    height: 30px;
+    min-width: 120px;
+    margin-top: 10px;
+    border: transparent;
+    border-radius: 3px;
+}
