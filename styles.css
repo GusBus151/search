@@ -1,9 +1,9 @@
 .link-header {
     display: flex;
-    justify-content: right;
     align-items: center;
     height: 48px;
     line-height: 24px;
+    justify-content: space-between;
 }
 
 .nav_links {
@@ -23,10 +23,9 @@
 } 
 
 .mini_logo {
-    display: flex;
+    padding: 13px;
     height: 24px;
     width: 74px;
-    margin-right: 91.75%;
 }
 
 .logo {
