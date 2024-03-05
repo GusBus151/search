@@ -26,6 +26,7 @@
     padding: 13px;
     height: 24px;
     width: 74px;
+    
 }
 
 .logo {
@@ -82,7 +83,8 @@
     min-width: 54px;
     text-align: center;
     cursor: pointer;
-    position: relative;
+    /* The buttons didn't look quite right when I got them placed in the div, 
+    so I bumped them over a touch */
     transform: translateX(5px);
 }
 
