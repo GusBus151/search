@@ -55,13 +55,22 @@
     margin-top: 8px;
     width: 93%;
     min-height: 38px;
-    border: 1px solid;
+    border: 1px solid #dfe1e5;
     border-radius: 24px;
     line-height: 22px;
     font-size: 14px;
     margin-bottom: 8px;
     overflow-x: hidden; 
     padding: 4px 20px;
+}
+
+#search_box:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: transparent;
+}
+
+#search_box:focus {
+    outline: 0;
 }
 
 .search_buttons_div {
@@ -95,14 +104,15 @@
 .advanced_text_title {
     color: rgb(246, 54, 43);
     margin-left: 30px;
-    font-family: Arial, sans-serif;
+    font-family: arial, sans-serif;
     font-size: 21px;
     margin: 25px 35px;
     height: 23px;
 }
 
 .advanced_text_body {
-    font-size: 21px;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
 }
 
 .advanced_inputs {
@@ -118,41 +128,63 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 30px;
+    margin-bottom: 15px;
 }
 
 .input_text {
     width: 200px;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 16px;
+    font-weight: lighter;
 }
 
 .input_field {
-    width: 380px;
+    width: 540px;
 }
 
 .form_input_field {
-    width: 380px;
+    width: 530px;
+    height: 24px;
+    border: 1px solid #d9d9d9;
+    line-height: 30px;
+    text-align: left;
+    padding: 2px 8px;
+}
+
+.form_input_field:focus {
+    outline-style: inset;
+    outline-color: #4d90fe;
+    border: transparent;
 }
 
 #right_text {
     margin-left: 20px;
     word-wrap: normal;
-    width: 300px;
+    width: 375px;
     font-size: 88%;
+    font-weight: lighter;
 }
 
 .adv_button {
     display: flex;
     justify-content: right;
-    width: 588px;
+    width: 747px;
 }
 
 .adv_button_look {
-    background-color: #0040b5;
+    background-color: #4d90fe;
     color: #fffffc;
     height: 30px;
     min-width: 120px;
     margin-top: 10px;
     border: transparent;
     border-radius: 3px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.adv_button_look:hover {
+    background-color: #357ae8 ;
+    border: 1px solid #2f5bb7;
 }
